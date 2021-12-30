@@ -1,0 +1,8 @@
+<div class="container">
+  <h3>Teacher List</h3>
+  <ul class="list-group">
+    <li *ngFor="let teacher of teachers" class="list-group-item">
+      <b>ID:{{ teacher.id }}, Name:{{teacher.name}}, Age:{{teacher.age}}, City:{{teacher.city}}, Salary:{{teacher.salary}} , Work Hours:{{teacher.workhourInMonth}} , Years of Experince:{{teacher.yearsOfExp}}</b>
+    </li>
+  </ul>
+</div>
